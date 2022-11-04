@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    background: rgb(74, 168, 255);
+    text-align: center;
+}
+
+/*
+=================================================
+SEARCH
+=================================================
+*/
+form{
+    width:100%;
+    max-width:600px;
+    margin:0 auto;
+    font-family: 'Open Sans', sans-serif;
+ }
+ input{
+    width:100%;
+    font-size:32px;
+    margin:5px 0;
+    float:left;
+    border:none;
+    padding:10px;
+    outline:none;
+    font-family: 'Open Sans', sans-serif;
+ }
+ .search-bar{
+    width:85%;
+ }
+ .submit-button{
+    width:15%;
+    background:#000;
+    color:#FFF;
+    font-family: 'Open Sans', sans-serif;
+ } 
