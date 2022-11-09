@@ -1,7 +1,21 @@
 body {
     margin: 0;
-    background: rgb(74, 168, 255);
+    background: rgb(125, 191, 253);
     text-align: center;
+}
+
+h1 {
+   margin-top: 100px;
+   margin-bottom: 25px;
+   font-size: 200px;
+   font-family: 'Yellowtail', sans-serif;
+}
+
+p {
+   margin-top: 0px;
+   margin-bottom: 75px;
+   font-size: 25px;
+   font-family: 'Open Sans', sans-serif;
 }
 
 /*
@@ -9,28 +23,51 @@ body {
 SEARCH
 =================================================
 */
+
 form{
-    width:100%;
-    max-width:600px;
-    margin:0 auto;
-    font-family: 'Open Sans', sans-serif;
- }
- input{
-    width:100%;
-    font-size:32px;
-    margin:5px 0;
-    float:left;
-    border:none;
-    padding:10px;
-    outline:none;
-    font-family: 'Open Sans', sans-serif;
- }
- .search-bar{
-    width:85%;
- }
- .submit-button{
-    width:15%;
-    background:#000;
-    color:#FFF;
-    font-family: 'Open Sans', sans-serif;
- } 
+   width:100%;
+   max-width:600px;
+   margin:0 auto;
+}
+input{
+   width:100%;
+   font-size:32px;
+   margin:5px 0;
+   float:left;
+   border:none;
+   padding:10px;
+   outline:none;
+   font-family: 'Open Sans', sans-serif;
+}
+.search-bar{
+   width:85%;
+}
+.submit-button{
+   width:15%;
+   background:#000;
+   color:#FFF;
+}
+
+/*
+=================================================
+Mobile Styles
+=================================================
+*/
+
+@media only screen and (max-width: 900px) {
+   h1{
+       margin-top:50px;
+       font-size:100px;
+   }
+}
+
+
+@media only screen and (max-width: 600px) {
+   h1{
+       margin-top:50px;
+       font-size:75px;
+   }
+   .bookmarks i{
+   margin:0 15px;
+   }
+}
